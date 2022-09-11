@@ -77,7 +77,7 @@ def convergence(centroids, old_centroids, epsilon):
 if __name__ == '__main__':
 
 #Checking wether input is valid
-    if 4 > len(sys.argv) or 4 > len(sys.argv) > 5:
+    if 4 > len(sys.argv) or len(sys.argv) > 5:
         print("Invalid Input!")
         sys.exit()
         
